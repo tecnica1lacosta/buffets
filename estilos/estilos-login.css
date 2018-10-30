@@ -1,0 +1,497 @@
+/*comienzo de estilos para el fondo, header, footer y login*/
+p,h1,h2{
+  color: #000;
+}
+.icono-alta{
+  font-size: 25px;
+}
+.container-fluid-login{
+  background-image: url(img/hamburguesa.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 200px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+legend{
+  border: none;
+}
+.text-center{
+  font-size: 30px;
+}
+.form-panealta{
+  margin-top: 200px;
+  margin-bottom: 100px;
+  color: #000;
+}
+.input-panealta{
+  border: 1px solid;
+  border-radius: 10px;
+  color: #000;
+  border-color: #aaa;
+  background-color: white;
+  width: 80%;
+  padding: 6px;
+}
+.container-fluid-informacion{
+    background-image: url(img/fondo-hamburguesa.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-right: 0px; padding-left: 0px;
+}
+.container-fluid-inicio{
+  background-image: url(img/fondo-hamburguesa.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 0px;
+  border: none;
+}
+.precio{
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.texto-editar-borrar{
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.form-login{
+  border-radius: 20px;
+  padding: 30px;
+  background-color: rgba(10,23,55,0.4);
+  color: black;
+}
+.pater>div{
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+.descripcion-menu{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #000;
+  padding: 0px 5px;
+}
+.descripcion-footer{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #999;
+  padding: 0px 5px;
+}
+.icon {
+    padding: 15px 10px;
+    background-color: #ff751a;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+.btn-login {
+    background-color: #ff751a;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}
+.btn-login:hover {
+    background-color: #e65c00;
+}
+.btn-index{
+  background-color: #ff751a;
+  border: #ff751a;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+}
+.btn-index:hover{
+  background-color: #e65c00;
+  border: #ff751a;
+}
+
+.titulo{
+  font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+  color: #ff6600;
+  font-weight: bolder;
+  margin-left: 40px;
+  margin-top: 40px;
+  letter-spacing: 3px;
+}
+.span-titulo{
+  border: #000;
+  padding: 10px 40px;
+  border-radius: 100%;
+  background-color: rgba(30,30,30,0.3);
+}
+.titulo-login{
+  font-size: 45px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+.glyphicon-user-login{
+  font-size: 70px;
+  color: black;
+  background-color: #cc5200;
+  padding: 25px;
+  border-radius: 80px;
+}
+.glyphicon-user-header{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #9d9d9d;
+  padding-top: 15px;
+  background-color: #000;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+}
+.glyphicon-user-admin{
+  font-size: 17px;
+  color: #9d9d9d;
+}
+.bienvenido{
+  color: #9d9d9d;
+  font-size: 20px;
+  padding-top: 25px;
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+.contenido-login{
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.logo{
+  border-radius: 100px;
+  padding: 5px;
+  width: 100px;
+  position: static;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  margin-top: 200px;
+}
+.p-footer{
+  padding-top: 20px;
+  font-family: 'Varela Round', sans-serif;
+}
+.p-nav{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.cartel{
+  height: 80px;
+  width: 100px;
+  padding: 10px 0px;
+  margin-left: 10px;
+}
+.img-footer{
+  margin: 5px 0px;
+}
+@media only screen and (max-width: 768px) {
+    .p-footer{
+        text-align: center;
+        padding-top: 5px;
+    }
+    .p-nav{
+      margin-top: 5px;
+    }
+    .primer-p-nav{
+      margin-left: 0px;
+    }
+    .titulo,.span-titulo{
+      margin-top: -30px;
+      margin-bottom: 100px;
+      text-align: center;
+    }
+    .img-footer{
+      margin: 5px auto;
+      display: block;
+    }
+    .cartel{
+      margin: 1px auto;
+      display: block;
+      width: 110px;
+      height: 80px;
+    }
+    nav div a img{
+      margin-left: 10px;
+    }
+
+}
+
+/*fin de estilos header, footer, login*/
+
+
+
+.jumbotron-inicio{
+  background: linear-gradient(to left, #ff751a 30%, #ffffff 100%);
+  color: #000;
+}
+.jumbotron-inicio-margenes{
+  margin-bottom: 50px;
+  padding-top: 140px;
+}
+.jumbotron-inicio h1{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+}
+.jumbotron-inicio p{
+  font-family: 'Varela Round', sans-serif;
+}
+
+.titulo-inicio{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  font-size: 70px;
+  color: #000;
+}
+.texto-inicio{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #000;
+}
+p,h2{
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+}
+.img-item-inicio{
+  height: 500px;
+  width: auto;
+}
+.container-fluid-index{
+  margin: 0px; 
+  padding: 0px; 
+  background: linear-gradient(to left, #ff751a 30%, #ffffff 100%);
+}
+
+/*-webkit-filter: brightness(50%);
+filter: brightness(50%);*/
+/*<img src="img/tecnica.png" width="50px" alt="Logo Tecnica">
+<p>
+  EEST N°1 - Alumnos de 6°B Grupo 604
+</p>
+<div class="col-md-3 col-md-offset-4">
+  <p class="p-footer">
+    EEST N°1 - Alumnos de 6°B Grupo 604
+  </p>
+</div>*/
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 600px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 600px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  .jumbotron-texto-menu{
+    padding-top: 100px;
+  }
+  .navbar-wrapper .container{
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 100px;
+  }
+  .form-login{
+    margin-top: 150px;
+  }
+  .logo{
+    position: absolute;
+    width: 150px;
+    margin-top: -30px;
+  }
+  .margen-li-nav{
+    margin-left: 130px;
+  }
+  .navbar-inverse *{
+    color: white;
+  }
+  .navbar-wrapper .container {
+    width: 100%;
+  }
+  .navbar-inverse{
+    background-color: rgba(30,30,30,0.8);
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .jumbotron-texto-menu{
+    padding-top: 3%;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+.tabla-carrito{
+  margin-bottom: 300px;
+  margin-top: 150px;
+  font-size: 25px;
+}
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#3498db;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff
+}
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}

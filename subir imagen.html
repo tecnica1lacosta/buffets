@@ -1,0 +1,39 @@
+
+<form method="post" enctype="multipart/form-data">
+
+<div>
+    <div >
+        <div id="imagePreview">
+            <img src="img/imagen.jpg">
+        </div>
+        <div>
+            <div>
+                <span>Agregar Imagen</span>
+                <input type="file" name="imagen" id="imagen">
+            </div>
+        </div>
+    </div>			
+</div>
+<input type="submit" value="Guardar">
+
+
+<script>
+	(function(){
+		function filePreview(input){
+			if(input.files && input.files[0]){
+				var reader= new FileReader();
+				reader.onload= function(e){
+					$('#imagePreview').html("<img src='"+e.target.result+"' class='rounded-circle z-depth-1-half avatar-pic center-pic'>");
+				}
+				reader.readAsDataURL(input.files[0]);
+			}
+		}
+		$('#imagen').change(function(){
+			filePreview(this);
+		})
+	})();
+</script>
+
+$imageName = basename($_FILES["imagen"]["name"]);
+
+move_uploaded_file($_FILES["imagen"]["tmp_name"], 'img/');
